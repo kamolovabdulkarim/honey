@@ -1,0 +1,349 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: 'Kodchasan', sans-serif;
+    background: #E5E5E5;
+}
+
+.container {
+    max-width: 1145px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__wrap {
+    display: flex;
+    max-height: 40px;
+    height: 100%;
+    margin: 30px 0;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.header__nav {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header__link {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+.banner__h2 {
+    padding-left: 98px;
+}
+
+.banner__h {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    color: black;
+}
+
+.banner {
+    background-image: url(../img/banner1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0 50px;
+    border-radius: 30px;
+}
+
+.banner__wrap {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+    flex-direction: column;
+}
+
+.banner__buy {
+    margin: 50px 0;
+    padding: 18px 50px;
+    border: 2px solid black;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.banner__buy:hover {
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+
+.banner__btn {
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+}
+
+.shops__h {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    margin: 130px 0 50px;
+}
+
+.shops__wrap {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+    gap: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.container2 {
+    max-width: 1400px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wikipedia__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.wikipedia__h {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.wikipedia__item {
+    max-width: 544px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.wikipedia__p {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.wikipedia__a {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    background: #E58311;
+    padding: 15px 40px;
+    text-decoration: none;
+}
+
+.product__h {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+    margin-top: 100px;
+}
+
+.product__left {
+    display: flex;
+    background: #f5e0c8;
+    padding: 45px 0 45px 30px;
+    width: 558px;
+    height: 305px;
+}
+
+.left__h {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+
+.product__nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    color: black;
+   align-items: flex-end;
+}
+.product__right{
+    display: flex;
+    background: #f5e0c8;
+    padding: 45px 0 45px 30px;
+    width: 558px;
+    height: 305px;
+}
+.product__a {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #E58211;
+
+}
+
+.left__p {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.left__a {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #E58211;
+    text-decoration: none;
+    border: 2px solid  #E58211;
+    padding: 10px 30px;
+   align-items: center;
+}
+
+.left__nav {
+    width: 300px;
+align-items: center;
+}
+
+.right__h {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.right__p {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 40px;
+
+}
+
+.right__a {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #E58211;
+    text-decoration: none;
+    border: 2px solid  #E58211;
+    padding: 10px 30px;
+   align-items: center;
+}
+
+.right__nav {
+    width: 300px;
+align-items: center;
+margin-right: 60px;
+}
+
+
+.product__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 130px;
+    gap: 30px;
+}
+
+.footer {
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+
+}
+
+.footer__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+
+}
+
+.footer__h {
+    display: flex;
+    gap: 50px;
+
+}
+
+.footer__block {
+    display: flex;
+    gap: 40px;
+    max-width: 195px;
+    width: 100%;
+    height: 100%;
+    margin-right: 170px;
+}
+
+.footer__p {
+    font-family: Kodchasan;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 80px;
+    margin-left: 50px;
+    max-width: 265px;
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    background-image: url(../img/appstore_back.png);
+    padding: 8.59px 23.86px;
+}
+
+.footer__play {
+    display: flex;
+    gap: 30px;
+}
